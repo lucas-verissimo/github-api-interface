@@ -6,7 +6,7 @@ const Profile = () => {
     const { githubState } = useGithub();
 
     return (
-        <S.Wrapper>
+        <S.Wrapper className="profile">
             <S.WrapperImage src={githubState.user.avatar} alt="Avatar of user" />
 
             <S.WrapperUser>
@@ -19,38 +19,27 @@ const Profile = () => {
                         </a>
                     </S.WrapperInfoUser>
                     <S.WrapperInfoUser>
-                        <h3>Company:</h3>
-                        <span>{githubState.user.company}</span>
-                    </S.WrapperInfoUser>
-                    <S.WrapperInfoUser>
                         <h3>Location:</h3>
                         <span>{githubState.user.location}</span>
                     </S.WrapperInfoUser>
                     <S.WrapperInfoUser>
-                        <h3>Blog:</h3>
-                        <a href={githubState.user.blog} target="_blank" rel="noreferrer">
-                            {githubState.user.blog}
-                        </a>
+                        <h3>Bio: <span>{githubState.user.bio}</span></h3>
                     </S.WrapperInfoUser>
                 </div>
                 
-                <S.WrapperStatusCount>
-                <div>
-                    <h4>Followers</h4>
-                    <span>{ githubState.user.followers }</span>
-                </div>
-                <div>
-                    <h4>Followings</h4>
-                    <span>{ githubState.user.following }</span>
-                </div>
-                <div>
-                    <h4>Gists</h4>
-                    <span>{ githubState.user.publicGists }</span>
-                </div>
-                <div>
-                    <h4>Repos</h4>
-                    <span>{ githubState.user.publicRepos }</span>
-                </div>
+                <S.WrapperStatusCount className="statuscount">
+                    <div>
+                        <h4>Followers</h4>
+                        <span>{ githubState.user.followers }</span>
+                    </div>
+                    <div>
+                        <h4>Followings</h4>
+                        <span>{ githubState.user.following }</span>
+                    </div>
+                    <div>
+                        <h4>Repos</h4>
+                        <span>{ githubState.user.publicRepos }</span>
+                    </div>
                 </S.WrapperStatusCount>
             </S.WrapperUser>
         </S.Wrapper>

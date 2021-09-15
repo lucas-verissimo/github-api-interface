@@ -17,12 +17,10 @@ const GithubProvider = props =>{
             login: undefined,
             name: undefined,
             html_url: undefined,
-            blog: undefined,
-            company: undefined,
+            bio: undefined,
             location: undefined,
             following: 0,
             followers: 0,
-            publicGists: 0,
             publicRepos: 0
         },
         repositories: [],
@@ -44,12 +42,10 @@ const GithubProvider = props =>{
                         login: data.login,
                         name: data.name,
                         html_url: data.html_url,
-                        blog: data.blog,
-                        company: data.company,
+                        bio: data.bio,
                         location: data.location,
                         following: data.following,
                         followers: data.followers,
-                        publicGists: data.public_gists,
                         publicRepos: data.public_repos
                     }
                 }));

@@ -56,6 +56,9 @@ export const WrapperInfoUser = styled.div`
         color: rgba(0, 0, 0, 0.5);
         text-decoration: underline;
     }
+    span {
+        font-weight: normal;
+    }
 `;
 
 export const WrapperImage = styled.img`
