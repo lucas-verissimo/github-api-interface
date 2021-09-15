@@ -24,7 +24,7 @@ Print of the finished project.
 
 Responsive project screenshot.
 
-![screenshot-mobile](https://user-images.githubusercontent.com/77354697/133433442-2c24f72e-5d76-4141-bda5-8769735f1719.png)
+![screenshot-mobile](https://user-images.githubusercontent.com/77354697/133434382-aa1c961f-2d06-4e06-a3fd-71c07e9ff34d.png)
 
 ### Libraries used
 
