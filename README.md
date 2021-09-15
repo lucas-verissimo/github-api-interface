@@ -2,6 +2,36 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About project
+
+This repository was created in order to show how we can create a frontend application with reusable components.
+
+We will create an application using the github public api.
+
+### Features
+
+- Search infos by username
+- Search repo by username
+- Search starred by username
+
+### Preview
+
+Print of the finished project.
+
+![screenshot](https://user-images.githubusercontent.com/77354697/133432755-fd0b0a55-60e2-414a-b999-9af95c029a1b.png)
+
+### Mobile Responsive
+
+Responsive project screenshot.
+
+![screenshot-mobile](https://user-images.githubusercontent.com/77354697/133433442-2c24f72e-5d76-4141-bda5-8769735f1719.png)
+
+### Libraries used
+
+- [axios](https://www.npmjs.com/package/axios)
+- [react-tabs](https://www.npmjs.com/package/react-tabs)
+- [styled-components](https://styled-components.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
